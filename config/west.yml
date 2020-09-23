@@ -1,0 +1,11 @@
+manifest:
+  remotes:
+    - name: kaylanm
+      url-base: https://github.com/kaylanm
+  projects:
+    - name: zmk
+      remote: kaylanm
+      revision: boardwalk
+      import: app/west.yml
+  self:
+    path: config

@@ -39,7 +39,7 @@
 // .-----------------------------------------------------------------------------------------------------------------------------.
 // | `      | F1     | F2     | F3     | F4     | F5     | F6     | F7     | F8     | F9     | F10    | F11    | F12    | DEL    |
 // |--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+-----------------|
-// | DFU    | OUT TOG| OUT USB| OUT BT |        |        |        |        |        |        |        |        | PRT SC |        |
+// | DFU    | OUT TOG| OUT USB| OUT BLE|        |        |        |        |        |        |        |        | PRT SC |        |
 // |--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+-----------------+--------|
 // | BT CLR | BT 0   | BT 1   | BT 2   | BT 3   |        |        |        |        |        |        |        |        | RESET  |
 // |--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------------------------+--------|
@@ -51,7 +51,7 @@
 
             bindings = <
     &kp GRAV    &kp F1       &kp F2       &kp F3       &kp F4       &kp F5 &kp F6 &kp F7 &kp F8 &kp F9     &kp F10    &kp F11    &kp F12  &kp DEL
-    &bootloader &out OUT_TOG &out OUT_USB &out OUT_BT  &trans       &trans &trans &trans &trans &trans     &trans     &trans     &kp PRSC &trans
+    &bootloader &out OUT_TOG &out OUT_USB &out OUT_BLE &trans       &trans &trans &trans &trans &trans     &trans     &trans     &kp PRSC &trans
     &bt BT_CLR  &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &trans               &trans &trans     &trans     &trans     &trans   &reset
     &trans      &trans       &trans       &trans       &trans       &trans &trans &trans &trans &kp M_MUTE &kp M_VOLD &kp M_VOLU &kp BSLH &trans
                 &trans       &trans       &trans       &trans              &trans &trans        &trans     &trans     &trans     &trans

@@ -1,11 +1,11 @@
 manifest:
   remotes:
-    - name: kaylanm
-      url-base: https://github.com/kaylanm
+    - name: zmkfirmware
+      url-base: https://github.com/zmkfirmware
   projects:
     - name: zmk
-      remote: kaylanm
-      revision: boardwalk
+      remote: zmkfirmware
+      revision: main
       import: app/west.yml
   self:
     path: config
